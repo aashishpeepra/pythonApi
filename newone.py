@@ -83,8 +83,8 @@ class Snapdeal():
                 }
             )
         return dicti
-obj = Snapdeal("---") # Enter Name of Product
-# print(obj.get_first_price())
-# print(obj.get_first_delivery())
-# print(obj.get_first_price_and_delivery())
-# print(obj.get_first_n_complete(100))
+obj = Snapdeal("boat leads") # Enter Name of Product
+print(obj.get_first_price())
+print(obj.get_first_delivery())
+print(obj.get_first_price_and_delivery())
+print(obj.get_first_n_complete(100))
